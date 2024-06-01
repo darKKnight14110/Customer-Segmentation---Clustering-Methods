@@ -1,15 +1,1 @@
-In this project, I will be performing an unsupervised clustering of data on the customer's records 
-from a groceries firm's database. Customer segmentation is the practice of separating customers 
-into groups that reflect similarities among customers in each cluster. I will divide customers into 
-segments to optimize the significance of each customer to the business. To modify products 
-according to distinct needs and behaviours of the customers. It also helps the business to cater 
-to the concerns of different types of customers. Through the analysis , we understand which 
-clustering method is the best for the current dataset and can be used for future classification on 
-test-data .We choose the scoring metric as “Silhouette Score” and “Davies-Bouldin Index”
-
-The clustering models used are:
-1. KMeans Clustering
-2. DBSCAN
-3. Agglomerative Clustering
-4. Mean Shift Clustering
-
+This project employed the RFM model to segment our customer base into distinct groups based on their Recency (time since last purchase), Frequency (number of purchases), and Monetary Value (total spent). By analysing these segments, we gained valuable insights into customer behaviour. The results reveal a high value segment with low recency, a mid value segment and a low value segment with high recency. This segmentation allows us to personalise marketing strategies for each group, such as offering exclusive discounts and loyalty programs to our high-value segment to incentivize continued engagement, and implementing win-back campaigns with special offers for the low-frequency segment to re-activate them By implementing these targeted strategies, we can improve customer engagement, retention, and ultimately, drive revenue growth.By implementing these targeted strategies, we can improve customer engagement, retention, and ultimately, drive revenue growth
